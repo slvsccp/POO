@@ -16,7 +16,7 @@ public class Caneta {
         System.out.println("Modelo: " + getModelo());
         System.out.println("Ponta: " + getPonta());
         System.out.println("Cor: " + getCor());
-        System.out.println("Está tampada: " + isTampada());
+        System.out.println("Está tampada: " + getTampada());
     }
 
     public String getModelo() {
@@ -43,7 +43,7 @@ public class Caneta {
         this.cor = cor;
     }
 
-    public boolean isTampada() {
+    public boolean getTampada() {
         return tampada;
     }
 

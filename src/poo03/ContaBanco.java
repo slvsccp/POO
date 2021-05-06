@@ -1,4 +1,4 @@
-package poo3;
+package poo03;
 
 public class ContaBanco {
     public int numConta;
