@@ -27,6 +27,7 @@ public class Lutador {
         System.out.println("Ganhou " + this.getVitorias() + " vezes");
         System.out.println("Perdeu " + this.getDerrotas() + " vezes");
         System.out.println("Empatou " + this.getEmpates());
+        System.out.println("=====================");
     }
     public void ganharLuta(){
         this.setVitorias(this.getVitorias() + 1);
@@ -107,7 +108,7 @@ public class Lutador {
         } else if(this.peso <= 83.9) {
             this.categoria = "Médio";
         } else if(this.peso <= 120.2) {
-            this.categoria = "Peso";
+            this.categoria = "Pesado";
         } else {
             this.categoria = "Peso fora de categoria, não pode lutar";
         }
