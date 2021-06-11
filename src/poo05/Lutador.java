@@ -1,4 +1,4 @@
-package poo5;
+package poo05;
 
 public class Lutador {
     //Atributos
